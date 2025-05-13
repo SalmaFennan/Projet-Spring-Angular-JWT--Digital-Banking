@@ -1,5 +1,4 @@
 package ma.enset.ebankingbackend.entities;
-import ma.enset.ebankingbackend.entities.BankAccount;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
