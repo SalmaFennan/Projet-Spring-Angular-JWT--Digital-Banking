@@ -15,7 +15,5 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class SavingAccount extends BankAccount {
     private double interestRate;
-    private Long id;
-
 
 }
