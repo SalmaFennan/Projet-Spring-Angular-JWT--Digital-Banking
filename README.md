@@ -48,7 +48,8 @@ Les principales entités du projet sont :
 
 **AccountOperation :** opérations effectuées sur les comptes (débit/crédit).
 ## Diagramme de classe:
-![Diagramme de classe](/images/diagramme_classe.png)
+
+![Diagramme de classe](./images/diagramme_classe.png)
 
 ## Développement Backend
 
