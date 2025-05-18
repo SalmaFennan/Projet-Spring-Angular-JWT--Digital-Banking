@@ -63,7 +63,7 @@ Les principales entités du projet sont :
 
 ### 4.Création des services, des DTOs, enumeration, exception et mappers.
 
-![creation des fonctionnalités](images/service_dtos.png)
+![creation des fonctionnalités](images/service%20dtos.png)
 
 ### 5.Développement des contrôleurs REST.
 ![partie web](images/web.png)
