@@ -48,7 +48,7 @@ Les principales entités du projet sont :
 
 **AccountOperation :** opérations effectuées sur les comptes (débit/crédit).
 ## Diagramme de classe:
-![Diagramme de classe](/images/diagramme_classe.png)
+![Diagramme de classe](/images/diagclasse.png)
 
 ## Développement Backend
 
@@ -63,20 +63,20 @@ Les principales entités du projet sont :
 
 ### 4.Création des services, des DTOs, enumeration, exception et mappers.
 
-![creation des fonctionnalités](images/service%20dtos.png)
+![creation des fonctionnalités](images/service_dtos.png)
 
 ### 5.Développement des contrôleurs REST.
 ![partie web](images/web.png)
 
  ## La partie base de donnée et affichage via api:
-![table account operation](images/account_operation.png)
-![table bank account](images/bank_account.png)
+![table account operation](images/accountoperation.png)
+![table bank account](images/bankaccount.png)
 ![table custome](images/customer.png)
 ![affichage de customers via api](images/customerViaApiRest.png)
-![affichage de account via api](images/accountViaApiRest.png)
-![affichage de customers via swagger_ui](images/swaggerUi.png)
-![affichage de bank account via swagger_ui](images/swaggerUi3.png)
-![affichage de bank account Dtos](images/swaggerUi4.png)
+![affichage de account via api](images/accountapirest.png)
+![affichage de customers via swagger_ui](images/swaggerui.png)
+![affichage de bank account via swagger_ui](images/swaggerui3.png)
+![affichage de bank account Dtos](images/swaggerui4.png)
 
 ## Installation
 
