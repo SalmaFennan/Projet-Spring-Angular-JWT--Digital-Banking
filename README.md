@@ -69,7 +69,7 @@ Les principales entités du projet sont :
 ![partie web](images/web.png)
 
  ## La partie base de donnée et affichage via api:
-![table account operation](images/account_operation.png)
+![table account operation](C:\Users\LENOVO\IdeaProjects\ebanking-backend\images\account_operation.png)
 ![table bank account](images/bank_account.png)
 ![table custome](images/customer.png)
 ![affichage de customers via api](images/customerViaApiRest.png)
