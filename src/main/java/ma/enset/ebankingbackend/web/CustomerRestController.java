@@ -5,6 +5,8 @@ import lombok.extern.slf4j.Slf4j;
 import ma.enset.ebankingbackend.dtos.CustomerDTO;
 import ma.enset.ebankingbackend.exceptions.CustomerNotFoundException;
 import ma.enset.ebankingbackend.services.BankAccountService;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -42,7 +44,13 @@ public class CustomerRestController {
         return bankAccountService.updateCustomer(customerDTO);
     }
     @DeleteMapping("/customers/{id}")
-    public void deleteCustomer(@PathVariable Long id){
-        bankAccountService.deleteCustomer(id);
+    public ResponseEntity<?> deleteCustomer(@PathVariable Long id) {
+        try {
+            bankAccountService.deleteCustomer(id);
+            return ResponseEntity.noContent().build(); // 204 No Content
+        } catch (CustomerNotFoundException e) {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(e.getMessage()); // 404 Not Found
+        }
     }
+
 }

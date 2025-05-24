@@ -1,5 +1,4 @@
 package ma.enset.ebankingbackend.repositories;
-
 import ma.enset.ebankingbackend.entities.AccountOperation;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

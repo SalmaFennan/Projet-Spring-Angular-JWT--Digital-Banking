@@ -157,9 +157,13 @@ public class BankAccountServiceImpl implements BankAccountService {
     }
 
     @Override
-    public void deleteCustomer(Long customerId) {
-
+    public void deleteCustomer(Long customerId) throws CustomerNotFoundException {
+        if (!customerRepository.existsById(customerId)) {
+            throw new CustomerNotFoundException("Customer not found");
+        }
+        customerRepository.deleteById(customerId);
     }
+
 
     @Override
     public List<AccountOperationDTO> accountHistory(String accountId) {
