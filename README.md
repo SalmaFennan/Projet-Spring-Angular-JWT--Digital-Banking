@@ -78,10 +78,6 @@ Les principales entités du projet sont :
 ![affichage de bank account via swagger_ui](images/swaggerui3.png)
 ![affichage de bank account Dtos](images/swaggerui4.png)
 
-## Installation
-
-Cloner le dépôt : git clone https://github.com/votre-projet.git
-
 Démarrer le backend avec Maven : mvn spring-boot:run
 
 ## Auteurs
